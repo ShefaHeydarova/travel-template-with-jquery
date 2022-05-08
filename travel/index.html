@@ -1,0 +1,822 @@
+  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css"
+    crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title>Travel</title>
+</head>
+
+<body>
+
+  <!-- header contact -->
+  <header id="header-contact">
+    <div class="container-fluid container-lg">
+      <div class="row">
+        <div class="col-lg-6 d-none d-lg-flex align-self-center contact-list">
+          <span class="pe-3"><i class="fa-solid fa-phone"></i> 666 888 0000</span>
+          <span><i class="fa-solid fa-envelope"></i> contact@example.com</span>
+        </div>
+        <div class="col-lg-6 d-flex justify-content-lg-end justify-content-between">
+          <ul class="social-menu d-flex align-self-center ">
+            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+          </ul>
+          <button>
+            <a href="">become a local guide</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- header Menu -->
+  <section id="headermenu">
+    <nav>
+      <div class="container-fluid container-lg">
+        <div class="row d-flex align-item-baseline ">
+          <div class="col-9 d-flex justify-content-start ">
+            <div id="logo" class="d-flex  align-self-center">Logo</div>
+            <div id="main-menu" class=" d-lg-flex d-none ms-5">
+              <ul class="d-flex align-self-center">
+                <li><a href="#home" class="active">home</a></li>
+                <li><a href="#destination">destination</a></li>
+                <li><a href="#tours">tours page</a></li>
+                <li><a href="#news">news</a></li>
+                <li><a href="#contact">contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-3 d-flex justify-content-end align-self-center">
+            <div class="menu-icon row">
+              <a href="" class="d-lg-flex  d-none "><i class="fas fa-search "></i></a>
+              <a href=""> <i class="fa-solid fa-circle-user"></i></a>
+            </div>
+            <div id="bar" class="d-lg-none  d-block "><i class="fa-solid fa-bars"></i></div>
+          </div>
+        </div>
+        </div>
+    </nav>
+    <div class="side-bar">
+      <div class="d-flex justify-content-between side-bar-logo" >
+        <div id="side-logo">Logo</div>
+        <div id="close"><i class="fa-solid fa-circle-xmark"></i></div>
+      </div>
+      <ul class="d-flex flex-column align-self-center">
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#destination">destination</a></li>
+        <li><a href="#tours">tours page</a></li>
+        <li><a href="#news">news</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- home -->
+  <section id="home">
+    <div class="container-fluid container-lg">
+      <p>Traveling</p>
+      <h1>Your Journey Begins Here</h1>
+      <form id="form">
+        <div class=" d-flex flex-xl-row flex-column justify-content-between">
+          <div class="d-flex line relativ" id="destination">
+            <div class="d-flex">
+              <div class="form-icon"><i class="fas fa-location"></i></div>
+              <div>
+                <div class="text">Where are you going?</div>
+                <div id="dest-text">Destinations</div>
+              </div>
+              <div class="d-flex absolut"><i class="fa-solid fa-chevron-down" id="dest-down"></i></div>
+              <div class="d-flex absolut"><i class="fa-solid fa-chevron-up" id="dest-up"></i></div>
+            </div>
+            <div class="overflow">
+              <div>-Destination-</div>
+              <dl>
+                <dt>Africa</dt>
+                <dd>Morocco</dd>
+                <dd>Nigeria</dd>
+                <dd>Tanzania</dd>
+                <dt>Asia</dt>
+                <dd>Japan</dd>
+                <dd>Singapore</dd>
+                <dd>ThaiLand</dd>
+                <dt>Europe</dt>
+                <dd>France</dd>
+                <dd>Hungary</dd>
+                <dd>Italy</dd>
+                <dd>United Kingdom</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="d-flex line relativ" id="activity">
+            <div class="d-flex">
+              <div class="form-icon"><i class="fa-solid fa-user-gear"></i></div>
+              <div>
+                <div class="text">Activity type</div>
+                <div  id="act-text">Activity</div>
+              </div>
+              <div class="d-flex absolut"><i class="fa-solid fa-chevron-down" id="act-down"></i></div>
+              <div class="d-flex absolut"><i class="fa-solid fa-chevron-up" id="act-up"></i></div>
+            </div>
+            <div class="overflow">
+              <div>-Activity-</div>
+              <dl>
+                <dd>Adventure</dd>
+                <dd>Beache</dd>
+                <dd>City Tours</dd>
+                <dd>Cruises</dd>
+                <dd>Discovery</dd>
+                <dd>Historical</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="d-flex line">
+            <div class="form-icon"><i class="fas fa-history"></i></div>
+            <div>
+              <label for="date" class="text">When</label><br>
+              <input type="date" id="date">
+            </div>
+          </div>
+          <div class="d-flex relativ" id="guest">
+            <div id="guest-click" class="d-flex">
+              <div class="form-icon"><i class="fas fa-users"></i></div>
+              <div>
+                <div class="text">Guests</div>
+                <div id="sum">0</div>
+              </div>
+            </div>
+            <div id="guests">
+              <div class="d-flex justify-content-evenly mb-3">
+                <span class="num1">0</span>
+                <span>Person</span>
+                <button type="button" class="incre-p">+</button>
+                <button type="button" class="decrease-p">-</button>
+              </div>
+              <div class="d-flex justify-content-evenly">
+                <span class="num2">0</span>
+                <span>Children</span>
+                <button type="button" class="incre-c">+</button>
+                <button type="button" class="decrease-c">-</button>
+              </div>
+              <div><button type="button" id="apply">Apply</button></div>
+            </div>
+          </div>
+          <button type="button" class="justify-content-end"><a href="#home"><i class="fa-solid fa-magnifying-glass"></i>
+              search</a></button>
+        </div>
+      </form>
+      <h5>8700 TOURS ARE AVAILABLE, BOOK NOW</h5>
+    </div>
+  </section>
+
+  <!-- destination -->
+
+  <section id="destination">
+    <div class="container">
+      <div id="general">
+        <div class="d-flex gap">
+          <div id="dest-text">
+            <p>OUR DESTINATION LISTS</p>
+            <h2>Checkout Beautiful Places Arround the World</h2>
+          </div>
+          <div class="d-flex gap">
+            <div class="img-banner">
+              <img src="images/italy.jpg" alt="">
+              <button>3 TOURS</button>
+              <p>Italy</p>
+            </div>
+            <div class="img-banner">
+              <img src="images/france.jpg" alt="">
+              <button>3 TOURS</button>
+              <p>France</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex gap justify-content-between">
+          <div class="img-banner">
+            <img src="images/singapure.jpg" alt="">
+            <button>3 TOURS</button>
+            <p>Singapore</p>
+          </div>
+          <div class="img-banner">
+            <img src="images/morocco.jpg" alt="">
+            <button>4 TOURS</button>
+            <p>Morocco</p>
+          </div>
+          <div class="img-banner">
+            <img src="images/tailand.jpg" alt="">
+            <button>3 TOURS</button>
+            <p>ThaiLand</p>
+          </div>
+          <div class="img-banner">
+            <img src="images/hawai.jpg" alt="">
+            <button>4 TOURS</button>
+            <p>Hawaii</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- featured tours -->
+
+  <section id="tours">
+    <h2 class="title">Featured Tours</h2>
+
+    <div class="tours nav-icon">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="news-slider" class="owl-carousel">
+              <!-- 1 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/1.jpg" alt="" />
+
+                  <button>FEATURED</button>
+                  <div class="pos">
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Java & Bali One Life Adventures</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+                    <p>From <span>$59.000</span></p>
+                  </div>
+
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/2.jpg" alt="" />
+
+                  <button>FEATURED</button>
+                  <div class="pos">
+                    <div class="star">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Brooklyn Christmas Lights Tour</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+                    <p>From <span>$59.000</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/3.jpg" alt="" />
+
+                  <button>FEATURED</button>
+                  <div class="pos">
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Discovery Islands Kayaking Tour</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West, USA</p>
+                    <p>From <span>$39.000</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/4.jpg" alt="" />
+
+                  <button>FEATURED</button>
+                  <div class="pos">
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Yucatán Peninsula & Caribbean</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Bryce Canyon Central Park, USA</p>
+                    <p>From <span>$53.10</span></p>
+                  </div>
+                </div>
+              </div>
+              <!-- 5 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/5.jpg" alt="" />
+
+
+                  <button>FEATURED</button>
+                  <div class="pos">
+                    <div class="star d-flex">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star-half-stroke"></i>
+                    </div>
+                    <p>Los Glaciares & Fitz Roy Trip</p>
+                    <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+                    <p>From <span>$49.000</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- find locations -->
+  <section id="location">
+    <div class="container-fluid container-lg">
+      <div class="row">
+        <div class="col-7">
+          <p style="color: #e8604c;">FIND LOCATIONS</p>
+          <h2>90,100 Marker In 120+ Countries.</h2>
+
+          <div>
+            <div class="d-flex my-5">
+              <div class="d-flex">
+                <div class="circle chart-line ">
+                  <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <div>
+                  <b>
+                    <p>100 New Daily user</p>
+                  </b>
+                  <p>Aenean lacinia bibendum nulla sed consectetur</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="circle medal">
+                  <i class="fa-solid fa-medal"></i>
+                </div>
+                <div>
+                  <b>
+                    <p>Strong Brand Building</p>
+                  </b>
+                  <p>Aenean lacinia bibendum nulla sed consectetur</p>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex my-5">
+              <div class="d-flex">
+                <div class="circle codepen ">
+                  <i class="fa-brands fa-codepen"></i>
+                </div>
+                <div>
+                  <b>
+                    <p>Fine Clean Design</p>
+                  </b>
+                  <p>Aenean lacinia bibendum nulla sed consectetur</p>
+                </div>
+              </div>
+              <div class="d-flex">
+                <div class="circle chart-area ">
+                  <i class="fa-solid fa-chart-area"></i>
+                </div>
+                <div>
+                  <b>
+                    <p>Well Crafted Listings</p>
+                  </b>
+                  <p>Aenean lacinia bibendum nulla sed consectetur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5">
+          <div id="background-img">
+            <p><span>30% </span><br /> Discount</p>
+
+            <button><a href="">BOOK TOUR NOW <br /> <span>66888000</span></a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Popular Tours -->
+  <section id="popularTours">
+    <div class="container-fluid container-lg">
+      <div class="title">
+        <h2>Most Popular Tours</h2>
+      </div>
+      <div>
+        <div class="d-flex flex-wrap justify-content-center justify-content-md-between">
+          <div class=" popular-card">
+            <img src="images/2.jpg" alt="">
+            <button>FEATURED</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p><b>Java & Bali One Life Adventures</b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+              <p>From <span>$59.000</span></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/3.jpg" alt="">
+            <button>FEATURED</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p><b>Discovery Islands Kayaking Tour</b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West, USA</p>
+              <p>From <span>$39.000</span></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/6.jpg" alt="">
+            <button class="layout">8% OFF</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p><b>Yucatán Peninsula & Caribbean</b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Bryce Canyon Central Park, USA</p>
+              <p>From <span>$53.10</span> <del>$59.000</del></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/1.jpg" alt="">
+            <button class="layout">10% OFF</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p><b>Java & Bali One Life Adventures </b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+              <p>From <span>$1011.08</span> <del>1099.0</del></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+       
+       
+          <div class="popular-card">
+            <img src="images/7.jpg" alt="">
+            <button>FEATURED</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p><b>Los Glaciares & Fitz Roy Trip </b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+              <p>From <span>$49.000</span></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>9 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>99</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/8.jpg" alt="">
+            <button class="layout">10% OFF</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half-stroke"></i>
+              </div>
+              <p><b>Mykonos and Santorini Tour </b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West, USA</p>
+              <p>From <span>$35.100</span> <del>$39.000</del></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/9.jpg" alt="">
+            <button>FEATURED</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p><b>Discovery Island Kayak Tour</b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+              <p>From <span>$49.000</span></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>15 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>98</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+
+            </div>
+          </div>
+          <div class="popular-card">
+            <img src="images/10.jpg" alt="">
+            <button>FEATURED</button>
+            <div class="card-content">
+              <div class="star d-flex">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p><b>National Parks Tour Small Group </b></p>
+              <p><span><i class="fa-solid fa-location-dot"></i></span> Central Park West NY, USA</p>
+              <p>From <span>$69.000</span></p>
+              <hr>
+              <div class="card-bottom">
+                <i class="fa-solid fa-clock"></i>
+                <span>10 days</span>
+                <i class="fa-solid fa-user-group"></i>
+                <span>50</span>
+                <a href="" class="ms-5">Explore <span><i class="fa-solid fa-arrow-right"></i></span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- news and articles -->
+  <section id="news">
+    <h2 class="title">News & Articles</h2>
+
+    <div class="news nav-icon">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="new-slider"  class="owl-carousel">
+              <!-- 1 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/11.jpg" alt="" />
+                  <div class="date">
+                    <p>08 <br /> DEC</p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>ADMIN</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>0 COMMENT</span>
+                  </div>
+                  <p><b>Journeys are Best Measured with Friends</b></p>
+                  <p> There are many variations of but the majority have simply free text available not suffered.</p>
+                  <a href="">READ MORE <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/12.jpg" alt="" />
+                  <div class="date">
+                    <p>08 <br /> DEC</p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>ADMIN</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>0 COMMENT</span>
+                  </div>
+                  <p><b>Things to See and Do When Visiting Japan</b></p>
+                  <p> There are many variations of but the majority have simply free text available not suffered.</p>
+                  <a href="">READ MORE <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/13.jpg" alt="" />
+                  <div class="date">
+                    <p>08 <br /> DEC</p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>ADMIN</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>0 COMMENT</span>
+                  </div>
+                  <p><b>A Place where Start New Life with Peace</b></p>
+                  <p> There are many variations of but the majority have simply free text available not suffered.</p>
+                  <a href="">READ MORE <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="news-grid">
+                <div class="news-grid-image">
+                  <img src="images/14.jpg" alt="" />
+                  <div class="date">
+                    <p>08 <br /> DEC</p>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <div>
+                    <i class="fa-solid fa-circle-user"></i>
+                    <span>ADMIN</span>
+                    <i class="fa-solid fa-comments"></i>
+                    <span>0 COMMENT</span>
+                  </div>
+                  <p><b>Travel the Most Beautiful Places in the World</b></p>
+                  <p> There are many variations of but the majority have simply free text available not suffered.</p>
+                  <a href="">READ MORE <span><i class="fa-solid fa-arrow-right"></i></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="orange">
+    <div class="container d-flex justify-content-between">
+      <div>
+        <p><i>Plan your trip with us</i></p>
+        <p>Ready for an unforgetable tour?</p>
+      </div>
+      <div>
+        <button>BOOK TOUR NOW</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="contact">
+    <div class="container">
+      <div class="row contact-menu">
+        <div class="col-4">
+          <div class="logo">Logo</div>
+          <p>Welcome to our Trip and Tour Agency.
+            <br /> Lorem simply text amet cing elit.
+          </p>
+          <hr>
+          <p><span><i class="fa-solid fa-phone"></i></span> 92 666 888 0000</p>
+          <p><span><i class="fa-solid fa-envelope"></i></span><a href="#contact" id="email">contact@example.com</a></p>
+          <p><span><i class="fa-solid fa-location-dot"></i></span> 66 Broklyn Street New York, USA</p>
+        </div>
+        <div class="col-2">
+          <h5>Company</h5>
+          <ul>
+            <li><a href="#contact">About Us</a></li>
+            <li><a href="#contact">Community Blog</a></li>
+            <li><a href="#contact">Rewards</a></li>
+            <li><a href="#contact">Work with Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <h5>Explore</h5>
+          <ul>
+            <li><a href="#contact">Account</a></li>
+            <li><a href="#contact">Privacy Policy</a></li>
+            <li><a href="#contact">Affilitate Program</a></li>
+            <li><a href="#contact">Our Partner</a></li>
+            <li><a href="#contact">Events</a></li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <h5>Newsletter</h5>
+          <form action="">
+            <div> <input type="email" placeholder="Email address"></div>
+            <div> <button>SUBSCRIBE</button></div>
+            <div class="mt-4"><span><i class="fa-solid fa-circle-check"></i></span> <a href="#contact">I agree to all
+                terms and policies</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="d-flex">
+        <div>
+          <a href="#home"><button><i class="fa-solid fa-arrow-up"></i></button></a>
+        </div>
+        <div class="d-flex justify-content-between">
+          <div class="social-menu">
+            <ul class="d-flex align-self-center ">
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+          <div class="d-flex align-self-center" id="design">© Copyright 2021 by Gaviasthemes</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
