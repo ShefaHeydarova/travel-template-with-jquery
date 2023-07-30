@@ -982,7 +982,10 @@ button:hover {
   #destination #dest-text h2 {
     font-size: 2.5rem;
   }
- 
+   #home p {
+    font-size: 80px;
+    
+  }
 
   #contact #footer button {
     height: 100%;
