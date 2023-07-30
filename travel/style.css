@@ -64,9 +64,11 @@ button:hover {
 #header-contact .social-menu {
   margin-bottom: 0;
 }
+
 #header-contact .social-menu {
   padding-left: 0;
 }
+
 #header-contact .social-menu li {
   list-style: none;
   padding-right: 15px;
@@ -172,7 +174,7 @@ button:hover {
   -webkit-box-shadow: 0px 1px 1px #eee;
   -moz-box-shadow: 0px 1px 1px #eee;
   box-shadow: 0px 1px 1px #eee;
-  transition: all 1s; 
+  transition: all 1s;
 }
 
 .side-bar-logo {
@@ -353,16 +355,9 @@ button:hover {
 }
 
 /* --------------------------DESTINATION----------------------------------------------- */
-
-#destination #general {
-  display: grid;
-  gap: 30px;
-  margin: 100px 0;
-}
-
 #destination .gap {
   display: grid;
-  gap: 30px;
+  gap: 50px;
 }
 
 #destination #dest-text {
@@ -379,11 +374,11 @@ button:hover {
 
 
 #destination .img-banner {
-  width: 300px;
   height: 300px;
   border-radius: 10px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 #destination .img-banner img {
@@ -963,29 +958,55 @@ button:hover {
 
 /* ---------1200---------- */
 
-@media only screen and (max-width: 1200px){
-
-  #destination #general {
-    display: flex;
-   flex-direction: column;
-  }
-  
-
+@media only screen and (max-width: 1200px) {
   #home #form button {
     padding: 20px 0;
     border-top-right-radius: 0;
     border-bottom-left-radius: 10px;
   }
 
-
-  #destination .img-banner {
-    width: 200px;
-  }
-
-
+ 
 }
 
+@media only screen and (max-width: 992px) {
+  #destination #dest-text h2 {
+    font-size: 2.5rem;
+  }
+  #contact #footer #design {
+    position: relative;
+    right: 0;
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  #destination #dest-text h2 {
+    font-size: 2.5rem;
+  }
+ 
 
+  #contact #footer button {
+    height: 100%;
+    padding: 0 20px;
+    border-top-left-radius: 10px;
+  }
+  
+#contact #footer .social-menu ul {
+  padding: 20px;
+  margin-bottom: 0;
+}
 
+}
+@media only screen and (max-width:450px) {
 
+  #contact #footer button {
+    height: 100%;
+    padding: 0 10px;
+    border-top-left-radius: 10px;
+  }
+  
+#contact #footer .social-menu ul {
+  padding: 10px;
+  margin-bottom: 0;
+}
 
+}
