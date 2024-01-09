@@ -165,7 +165,7 @@ button:hover {
 
 /* -----------SIDE BAR----------- */
 .side-bar {
-  width: 50%;
+/*   width: 50%; */
   height: 100vh;
   position: fixed;
   top: 0;
